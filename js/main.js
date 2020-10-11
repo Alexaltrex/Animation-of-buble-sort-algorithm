@@ -1,5 +1,6 @@
 $(() => {
     let n;
+    
     n = $('.inputdata__number-input').val();
 
     let jCurr = n - 2; //текущее значение j
