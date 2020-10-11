@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble sort</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Bubble sort</h1>
+
+        <div class="control">
+
+            <fieldset class="inputdata">
+                <legend align="center">input data</legend>
+                <div class="inputdata__number">
+                    <input class="inputdata__number-input" type="text" value="20">
+                    <div class="inputdata__number-desc">Number of elements of the array</div>
+                </div>
+
+                <div class="inputdata__speed">
+
+                    <div class="inputdata__speed-input">
+                        <div class="inputdata__speed-up">+50</div>
+                        <div class="inputdata__speed-value">50</div>
+                        <div class="inputdata__speed-down">-50</div>
+                    </div>
+                    <!-- <input class="inputdata__speed-input" type="text" value="500"> -->
+                    <div class="inputdata__speed-desc">Animation duration (ms)</div>
+                </div>
+            </fieldset>
+
+            <div class="btns">
+                <div class="btn generate">Generate</div>
+                <div class="btn sort">Sort</div>
+            </div>
+
+            <fieldset class="outputdata">
+                <legend align="center">output data</legend>
+                <div class="output__counter">
+                    <div class="output__counter-value">0</div>
+                    <div class="output__counter-desc">Number of operations</div>
+                </div>
+                <div class="output__status">
+                    <div class="output__status-value">is generated</div>
+                    <div class="output__status-desc">Status</div>
+                </div>
+            </fieldset>
+
+        </div>
+
+        <div class="blocks"></div>
+
+        <script src="js/main.js"></script>
+</body>
+
+</html>
