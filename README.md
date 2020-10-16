@@ -5,7 +5,6 @@
 Анимация алгоритма сортировки пузырьком.
 
 ## Запуск проекта:
-Для установки и запуска необходимы установленные программы: Node.js, npm, Git;
 1. Клонирование и запуск: git clone https://github.com/Alexaltrex/Animation-of-buble-sort-algorithm.git;
 2. Переход в директорию с проектом: cd Social-network;
 3. Запуск файла index.html;
